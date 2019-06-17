@@ -1,12 +1,13 @@
 #!/bin/bash
 
 gitName="" #your github username
-projectFolder="/"$1 #befor "/" add path where you want your project to be. example "/Users/name/Documents/Projects/MyProjects/"$1
+projectFolder="/" #add path where you want your project to be.
 
 function create() {
 	cd
-	python3 create.py $1 $projectFolder
-	cd $projectFolder
+	cd ProjectStarter
+	python3 create.py $1 $projectFolder$1
+	cd $projectFolder$1
 	git init
 	git remote add origin git@github.com:$gitName/$1.git
 	touch README.md
