@@ -17,7 +17,7 @@ and make sure you leave `/` at the end
 #### Last thing to do is run `source ./myCommand.sh`
 ### Important :point_down:
 #### If you want you can open `~/.bashrc` in editor and at the end of file add:  
-#### `source ~/myCommand.sh` so when you open new terminal you dont have to run it. :ok_hand:
+#### `source ~/ProjectStarter/myCommand.sh` so when you open new terminal you dont have to run it. :ok_hand:
 
 ## Usage:
 #### When you open terminal run `create <name for project>` and you good to go. :fire: :fire: :fire:
